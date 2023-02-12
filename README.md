@@ -1,4 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter Template
+
+Starter Template using Nuxt 3, Vite, Vitest, Typescript, Pinia, ESLint, Prettier, VueUse and TailwindCSS.
+All set up and ready to go.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
