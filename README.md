@@ -1,4 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter Template
+
+Starter Template using Nuxt 3, Vite, Vitest, Typescript, Pinia, ESLint, Prettier, VueUse and TailwindCSS.
+All set up and ready to go.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -7,14 +10,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+yarn
 ```
 
 ## Development Server
@@ -22,7 +18,7 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -30,13 +26,27 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
+
+Run and view the results of the linter:
+
+```bash
+yarn lint
+```
+
+
+Run and view the results of tests:
+
+```bash
+yarn test
+```
+
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
