@@ -97,6 +97,7 @@ Prettier is an opinionated code formatter.
 Collection of essential Vue Composition Utilities for Vue 3.
 
 Removal steps:
+- Remove any references to `@vueuse/core` in your components and composables
 - Remove package.json dependency: `@vueuse/core`
 
 ### [TailwindCSS](https://tailwindcss.com/)
@@ -112,7 +113,7 @@ Removal steps:
 
 There is a basic overlay system in place that can be used to display messages or UI to the user.
 
-To use it simply teleport your component to the `#overlay` component.
+To use it simply teleport your component to `#overlay`.
 
 There is a basic `OverlayMenu` component that can be used as an example.
 
