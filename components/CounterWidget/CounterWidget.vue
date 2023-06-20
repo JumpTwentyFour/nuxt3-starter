@@ -6,20 +6,28 @@
     </p>
     <button
       data-testid="button"
-      class="bg-slate-500 px-3 py-2 text-white mt-2"
-      @click="increase"
+      class="bg-black text-white px-3 py-2 mt-2 rounded"
+      @click="increment"
     >
-      Increase count
+      Increment
     </button>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+// You can use the useCounter composable
+// --------------------------------------------------
+import useCounter from '@/composables/useCounter'
 
-const count = ref(0)
+const { count, increment } = useCounter()
 
-const increase = (): void => {
-  count.value++
-}
+// Or you can do it manually
+// -------------------------
+// import { ref } from 'vue'
+//
+// const count = ref(0)
+//
+// const increment = (): void => {
+//   count.value++
+// }
 </script>
